@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul li {
+  list-style: none;
+}
+.d-flex {
+  display: flex;
+}
+.al-items {
+  align-items: center;
+}
+button {
+  border: none;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.fs14 {
+  font-size: 14px;
+}
+
+/* Header */
+header {
+  padding: 32px 135px 0 135px;
+}
+nav {
+  justify-content: space-between;
+  ul {
+    gap: 34px;
+    margin-left: 233px;
+  }
+  ul li {
+    color: #676a6c;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  button {
+    margin-left: 261px;
+    border-radius: 8px;
+    background: #31c3e0;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.14px;
+    padding: 14px 28px;
+  }
+}
+
+/* ------main--------- */
+.shapes {
+  justify-content: center;
+  position: relative;
+  h1 {
+    width: 869px;
+    color: #2d3134;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 70px; /* 112.903% */
+    z-index: 99;
+    position: absolute;
+    top: 175px;
+  }
+}
+
+.content {
+  padding: 0 135px;
+  gap: 56px;
+}
+.content-fav {
+  img {
+    width: 626px;
+    height: 416px;
+  }
+  h2 {
+    margin-top: 24px;
+    color: #2d3134;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
+.recent-blog {
+  padding: 30px 30px 44px 30px;
+  border-radius: 10px;
+  background: #ececec;
+}
+.search-blog {
+  justify-content: space-between;
+  input {
+    border-radius: 8px;
+    border: 1px solid #ececec;
+    background: #fff;
+    padding: 14px 95px 14px 20px;
+    color: var(--Typography-2, #676a6c);
+
+    font-family: Inter;
+    line-height: 26px;
+  }
+  button {
+    width: 117px;
+    height: 54px;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 8px;
+    background: #ff7b29;
+    padding: 14px 20px;
+    margin-left: 20px;
+  }
+}
+.top-blog {
+  h4 {
+    color: #2d3134;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 40px;
+  }
+  ul {
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+  }
+  li {
+    gap: 20px;
+  }
+  li a {
+    color: #2d3134;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.blog-list {
+  margin-top: 112px;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.blog-top,
+.blog-bottom {
+  position: relative;
+  padding: 0 135px;
+  ul {
+    gap: 30px;
+  }
+  h4 {
+    margin-top: 20px;
+    color: #2d3134;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  p {
+    margin-top: 16px;
+    color: #676a6c;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .read-more {
+    bottom: -40px;
+    position: absolute;
+    color: #ff7b29;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.blog-bottom {
+  margin-top: 30px;
+}
+
+.btn-see-more {
+  margin: 0 auto;
+  padding: 18px 40px;
+  align-items: center;
+  margin-top: 150px;
+  border-radius: 12px;
+  background: #ff7b29;
+  box-shadow: 0px 30px 30px -18px rgba(229, 89, 54, 0.16);
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.18px;
+}
+
+/* Footer */
+footer {
+  padding: 0 135px 30px 135px;
+  margin-top: 140px;
+}
+.footer-container {
+  justify-content: space-between;
+  h5 {
+    color: #020000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+  }
+  ul {
+    margin-top: 23px;
+  }
+  li {
+    color: #676a6c;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 38px;
+  }
+}
+.email-contact {
+  margin-top: 39px;
+
+  a {
+    color: #31c3e0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+}
+.get-in-touch .edit {
+  margin-top: 22px;
+}
+
+.nav-footer {
+  margin-top: 89px;
+  justify-content: space-between;
+}
+.social {
+  gap: 20px;
+}
+.edit-fg {
+  flex-grow: 1;
+}
